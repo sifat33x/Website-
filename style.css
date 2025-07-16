@@ -1,0 +1,152 @@
+/* Updated CSS for WarCryRahi Website */
+Background-color:#fff;
+
+{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+
+body { background-color: #BA9B9B; color: #fff; line-height: 1.6; }
+
+header.logo { background: linear-gradient(to right, #8B0000, #FF8C00); padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-bottom: 4px solid gold; }
+
+.title h1 { font-size: 2.5em; color: gold; text-shadow: 2px 2px 5px #000; }
+
+.image img { border-radius: 10px; border: 3px solid gold; }
+
+.menu ul { list-style: none; display: flex; gap:8px; }
+
+.menu ul li a { color: white; background-color: crimson; padding: 8px 16px; border-radius: 5px; text-decoration: none; transition: 0.3s; }
+
+.menu ul li a:hover { background-color: gold; color: black; }
+
+.searchbar input[type="search"] { padding: 7px; border: none; border-radius: 5px; margin-right: 5px; }
+
+.searchbar button { padding: 7px 12px; background-color: orange; color: white; border: none; border-radius: 5px; }
+
+.login .button, .subscribe .btn { padding: 10px 20px; background-color: darkred; color: white; border: none; border-radius: 5px; margin-top: 10px; }
+
+.contain h3, .s.chenal h3 { color: gold; margin: 10px 0; }
+
+section.Text,.file { padding: 20px; }
+
+section.Text h1, .description h1,h1 { color: crimson; margin-bottom: 10px; }
+
+.description .des p,.inf,.not .Text .pra p { color: #ccc; margin-bottom: 20px; }
+
+footer.contains { background: #222; padding: 15px; text-align: center;}
+
+footer .Socialmidea li { display: inline; margin: 0 10px; }
+
+footer .Socialmidea a { color: white; text-decoration: none; }
+
+footer .cnt p { margin-top: 10px; color: #aaa; }
+
+.navigation { position: fixed; bottom: 0; width: 100%; background: transparent; padding: 10px; display: flex; justify-content: center; }
+
+.navigation ul2 { display: flex; gap: 8px; list-style: none ; }
+
+.navigation ul2 li a { color: white; text-decoration: none; padding: 10px 15px; background-color: rgba(100, 183, 244, 1); border-radius: 5px; transition: 0.3s; }
+
+.navigation ul2 li a:hover { background-color: #FFD700; color: #000; }
+
+/* Responsive */ @media (max-width: 450px) { header.logo { flex-direction: row; text-align: row; } .menu ul { flex-direction: row; } .navigation { flex-direction: row; } }
+
+
+  .video{
+    width:200px;
+    height:90px;
+    overflow: scroll;
+    background:rgba(74, 173, 218, 0.81);
+    border-radius:15px;
+  }
+  .videos{
+    
+  }
+  .navigation{
+    position: fixed;
+    bottom:20px
+    text-align:left;
+  }
+  .des{
+    width:200px;
+    height:90px;
+    overflow: scroll;
+    background:#9195BD;
+    border-radius: 15px;
+  }
+  .pra{
+    width:200px;
+    height:90px;
+    overflow: scroll;
+    background: #9195BD;
+    border-radius: 15px;
+    color: #ccc;
+  }
+  .contain{
+  position:0 10px 10px;
+  }
+  .contains{
+    margin-top:650px;
+    bottom:100px;
+    
+  }
+  .Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background:#15BCEAC7;
+    padding-top: 60px;
+
+  }
+  .Text>div {
+    background: transparent;
+    width: 200px;
+    height: 90px;
+    margin:12px;
+    gap: 20px;
+    
+  }
+  .sorts{
+    color: rgba(214, 82, 44, 1);
+    margin-bottom:10px;
+  }
+  .sort{
+    background: rgba(74, 173, 218, 0.81);
+    height: 90px;
+    width:250px;
+    overflow: scroll;
+    border-radius: 15px;
+    
+  }
+  
+  .vd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  .vd>div{
+    background: transparent;
+
+    width:100%;
+    height:100%;
+    margin:8px;
+  }
+  .inf{
+    width: 200px;
+    height: 90px;
+    overflow: scroll;
+    background:#9195BD ;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium';
+    color: #ccc;
+  }
+  .not{
+        width: 200px;
+    height: 90px;
+    overflow: scroll;
+    background:#9195BD;
+    border-radius: 15px;
+    color: #ccc;
+  }
